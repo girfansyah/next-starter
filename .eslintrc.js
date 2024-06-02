@@ -4,6 +4,14 @@ module.exports = {
     es2021: true,
     node: true,
   },
+  parser: '@typescript-eslint/parser',
+  parserOptions: {
+    ecmaFeatures: {
+      jsx: true,
+    },
+    ecmaVersion: 'latest',
+    sourceType: 'module',
+  },
   plugins: ['@typescript-eslint', 'simple-import-sort'],
   extends: [
     'eslint:recommended',
@@ -20,7 +28,6 @@ module.exports = {
     '@typescript-eslint/no-non-null-asserted-optional-chain': 'off',
     '@typescript-eslint/explicit-module-boundary-types': 'off',
     'no-console': 'warn',
-    'no-unused-vars': 'error',
     'array-callback-return': 'error',
     semi: ['off', 'never'],
     'react/no-unescaped-entities': 'off',
