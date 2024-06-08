@@ -98,4 +98,7 @@
     max-width: 68.75rem;
     @apply mx-auto w-11/12;
   }
+  .gradient-custom {
+    @apply bg-gradient-to-r from-[#f4e784] via-[#f24389] to-[#a478f1] bg-clip-text text-transparent;
+  }
 }

@@ -1,6 +1,6 @@
 export const siteConfig = {
-  title: 'Next.js Template Starter',
+  title: 'Next.js Boilerplate',
   description:
-    'A starter for Next.js, Tailwind CSS, and TypeScript with Absolute Import, Seo, Link component, pre-configured with Husky',
-  url: 'https://girfansyah.my.id',
+    'Kickstart your project effortlessly with the Free and Open-Source Next.js Boilerplate',
+  url: 'https://next-starter-five-phi.vercel.app',
 };
